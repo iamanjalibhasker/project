@@ -1,0 +1,343 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+   
+}
+
+.navbar {
+   height:60px;
+   background-color:white;    
+   display:flex;
+   justify-content:space-evenly;
+   align-items: center;
+    
+}
+
+.nav-logo {
+    height:60px;
+    width:100px;
+    
+}
+
+.logo {
+    width:100%;
+   position: relative;
+   top:15px;
+  
+}
+
+/* box1 */
+
+.nav-search {
+    height:35px;
+    width:650px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(207, 236, 248);
+    text-align: center;
+    border: none;   
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    
+} 
+
+.search-bar {
+    width:24px;
+   padding: 8px 0px 8px 12px;
+   align-self: center;
+   font-size: 0.95rem;
+   color: rgb(190, 187, 187);
+   opacity: 0.9;
+   position:relative;
+   right:5px;
+  
+}
+
+.search {
+    font-size: 0.75rem;
+    padding-left: 15px;    
+    border: transparent;
+    background-color: rgb(207, 236, 248);
+    width:100%;    
+    outline:none;    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+/* box2 */
+
+.login {
+    display:flex;
+
+}
+
+.nav {
+    height:24px;
+    font-size: 0.75rem;
+}
+
+.login p {
+    font-size: 0.75rem;
+    padding-left: 8px;
+}
+
+/* box3 */
+
+.cart {
+    display:flex;
+ 
+}
+
+.nav-cart {
+    font-size:0.75rem;
+    height:24px;
+}
+
+.cart p {
+    font-size: 0.75rem;
+    padding-left: 8px;
+}
+
+/* box4 */
+
+.seller {
+    display:flex;
+}
+
+.nav-seller {
+    font-size:0.75rem;
+    height:24px;
+}
+
+.seller p {
+    font-size: 0.75rem;
+    padding-left: 8px;
+}
+
+/* box5 */
+
+.option {
+    font-size: 0.75rem;
+}
+
+/* nav-items */
+
+.nav-items {
+    height:140px;
+    width:100%;    
+    background-color: whitesmoke;
+    /* margin-top: 10px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-items-2 {
+    width:100%;
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: white;    
+    margin:13px 11px 13px 11px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    justify-content: center;
+    
+}
+
+.img-box {
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 7px;
+}
+
+.nav-text {
+   
+    font-size: 0.55rem;
+    font-weight: 550;
+    text-align: center;
+    
+   
+}
+
+.items {
+   
+    height:110px;    
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+
+/* hero-section */
+
+.hero-section {
+    background-color: whitesmoke;
+   
+
+}
+ .hero {
+    background-image: url("box/hero_image.png");
+     background-size: cover;
+     height:200px;
+     margin-left:15px;
+     margin-right: 15px;
+    
+ }
+
+ /* secetion */
+
+.item-section {
+     background-color: whitesmoke;
+     height:320px;
+     padding-top: 18px;
+     
+     
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left:15px;
+    margin-right: 15px;
+
+}
+ .content {
+    height:80px;
+    /* border:1px solid black; */
+    margin-left:15px;
+    margin-right: 15px;
+    background-color: white; 
+    
+ }
+
+ 
+ h3 {
+    font-size:20px;
+    color:#212121;
+    /* border:1px solid black; */
+    height:28px;
+    padding: 22px 0px 0px 12px;
+    font: weight 5px;
+    
+ }
+
+ .box {
+    height:230px;
+    width:200px;
+    border:1px solid gainsboro;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left:15px;
+    margin-right: 15px;
+    background-color: white;
+ }
+
+ .item-box {
+    height:180px;
+    width:180px;
+    /* border:1px solid black; */
+    margin: 6px 0px 0px 9px;
+    
+    
+ }
+
+ .price p {
+     font-size: 14px;
+     color: #212121;
+     text-align: center;
+
+ }
+ 
+ .price h4 {
+    font-size:15px;
+    font-weight: 700;
+    padding-left:2.9rem;
+    
+     
+ }
+
+ /* footer-section */
+
+ .footer-content {
+     height:245px;
+     background-color: #000000;
+     display:flex;     
+     justify-content: space-around;
+     align-items: center;
+     padding:40px 60px 0px 60px;
+
+ }
+
+ .info {
+     font-size:12px;
+     color:#878787;
+     font-weight: 700;
+     text-align: center;
+    
+ }
+
+ .footer-content ul li a{
+
+     font-size: 12px;
+     font-weight: 700;
+     color:#ffffff;
+     text-decoration: none;
+     position: relative;
+     top:6px;
+  
+     
+ }
+
+ .footer-content ul li a:hover {
+    text-decoration: underline;
+ }
+
+ /* footer-gift */
+
+  .footer-gift {
+    height:85px;
+    border-top: 1px solid goldenrod;
+    display:flex;
+    background-color: #000000;
+    justify-content: space-evenly;
+   
+  }
+
+  .gift {
+    font-size:12px;
+    height:28px;
+    margin:30px;     
+
+  }
+    
+  .gift-icon { 
+    
+     position: relative;
+     right:20px;
+     top:13px;
+     color:gold;
+     padding-right: 3px;
+   
+  }
+
+  .gift p {
+     font-weight: 700;
+     color:#ffffff;
+
+  }
+
+  
+
+  
